@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+li a {
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+.active{
+    background-color: red;
+}
+.green{
+    background-color: blue;
+}
+
+a:hover{
+    color: yellow;
+}
+ 
+main{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 1px 1px 10px 10px red;
+}
+form{
+    width: 600px;
+    height: 450px;
+    background-color:burlywood;
+    margin: auto;
+    position: relative;
+
+}
+.name{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.mail{
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+.subject{
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+button{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    top: 450px;
+    right: 50px;
+    border-radius: 5px;
+}
+section{
+     width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div{
+    width: 300px;
+    height:175px ;
+    border: 1px solid black;
+    
+}
+ 
+h1{
+    position: absolute;
+    top: 45px;
+    left: 100px;
+} 
+textarea{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+} 
+
+

@@ -1,0 +1,14 @@
+p{
+    color: #300303;
+    font-size: 35px;
+    font-style: italic;
+    border: 1px solid red;
+}
+
+.second-paragraph{
+    color: blue;
+}
+
+#third-paragraph{
+    color: rgb(43, 159, 226);
+}
