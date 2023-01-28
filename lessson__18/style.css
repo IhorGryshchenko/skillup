@@ -51,7 +51,7 @@ header {
     border-left:1px solid #2c71b8 ;
 }
 
-.menu li:last-child {
+.menu li:last-child > a {
     border-right:1px solid #2c71b8 ;
 }
 
